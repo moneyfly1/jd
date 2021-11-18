@@ -24,9 +24,9 @@ const jdCookieNode = $.isNode() ? require("./jdCookie.js") : "";
 const notify = $.isNode() ? require('./sendNotify') : "";
 let cookiesArr = [], cookie = "", allMessage = "", message;
 const inviteCodes = [
-  `T0225KkcRh9P9FbRKUygl_UJcgCjVfnoaW5kRrbA@T0159KUiH11Mq1bSKBoCjVfnoaW5kRrbA@T018v_hzQhwZ8FbUIRib1ACjVfnoaW5kRrbA`,
-  `T0225KkcRh9P9FbRKUygl_UJcgCjVfnoaW5kRrbA@T0159KUiH11Mq1bSKBoCjVfnoaW5kRrbA@T018v_hzQhwZ8FbUIRib1ACjVfnoaW5kRrbA`,
-  `T0225KkcRh9P9FbRKUygl_UJcgCjVfnoaW5kRrbA@T0159KUiH11Mq1bSKBoCjVfnoaW5kRrbA@T018v_hzQhwZ8FbUIRib1ACjVfnoaW5kRrbA`,
+  `T01546ItFVdPqR3SIhoCjVfnoaW5kRrbA@T0205KkcBnpfqhyofUWCyoZXCjVfnoaW5kRrbA@T014a2XclYa28VDSIwCjVfnoaW5kRrbA`,
+  `T0205KkcMkJonxSAak-mx4RCCjVfnoaW5kRrbA@T015uftzQh0c8lXWT0cCjVfnoaW5kRrbA@T0225KkcRRsdoAWEIx38nPYJfQCjVfnoaW5kRrbA`,
+  `T0225KkcRxdM91DVJR2inKQMcgCjVfnoaW5kRrbA@T018-bg0FUdRrAuJdx_2kACjVfnoaW5kRrbA@T020aEnclai7IOJX9pVEQUC2CjVfnoaW5kRrbA`,
 ]
 const ZLC = !(process.env.JD_JOIN_ZLC && process.env.JD_JOIN_ZLC === 'false')
 let reward = process.env.JD_HEALTH_REWARD_NAME ? process.env.JD_HEALTH_REWARD_NAME : ''
